@@ -3,7 +3,7 @@
   <div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="50"
+        <a class="navbar-brand" href="#"><img alt="Vue logo" class="logo" src="/src/assets/logo.svg" width="50"
             height="50" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
