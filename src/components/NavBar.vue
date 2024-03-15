@@ -1,5 +1,4 @@
 <template>
-
   <div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -13,15 +12,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto my-0 me-3 mb-2 mb-lg-0">
             <li class="nav-item">
-                <RouterLink class="nav-link active" aria-current="page" to="/">Home</RouterLink>
+              <RouterLink class="nav-link active" aria-current="page" to="/">Home</RouterLink>
             </li>
 
             <li class="nav-item">
-                <RouterLink class="nav-link" to="/about">About</RouterLink>
+              <RouterLink class="nav-link" to="/about">About</RouterLink>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
+
+            <li class="nav-item">
+              <RouterLink class="nav-link" to="/service">Service</RouterLink>
+            </li>
+
+            <li class="nav-item">
+              <RouterLink class="nav-link" to="/gallery">Gallery</RouterLink>
+            </li>
+
+
+
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
               <ul class="dropdown-menu">
@@ -32,21 +41,24 @@
                 </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
+            </li> -->
+
+
+            <li class="nav-item">
+              <RouterLink class="nav-link" to="/news">News</RouterLink>
             </li>
 
-            
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/gallery">gallery</RouterLink>
+              <RouterLink class="nav-link" to="/contact">Contact Us</RouterLink>
             </li>
 
 
           </ul>
-         
+
         </div>
       </div>
     </nav>
   </div>
-
 </template>
 
 <script>
